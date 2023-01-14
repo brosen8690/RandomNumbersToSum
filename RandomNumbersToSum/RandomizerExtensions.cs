@@ -10,7 +10,6 @@
         /// <returns></returns>
         public static List<int> ToRandomNumbers(this int sum, int count)
         {
-
             Random rand = new Random();
             List<int> numbers = new List<int>();
             int numberToAdd;
@@ -20,7 +19,8 @@
             {
                 if (j == count)
                 {
-                    numberToAdd = remainder;
+                    numbers.Add(remainder);
+                    break;
                 }
                 else
                 {
