@@ -8,3 +8,5 @@ In creating mock data, I often come across situations where we have a group of e
 The current implementation is not good, since the numbers will trend large -> small with each iteration of the loop. Some sort of weighting system will be worked on to give a more realistic spread.
 
 An out of bounds exception will be thrown if the count is greater than the sum.
+
+Maybe just don't use this until I have more time to work on it.
