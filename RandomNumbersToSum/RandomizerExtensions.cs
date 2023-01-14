@@ -1,6 +1,6 @@
 ﻿namespace RandomNumbersToSum
 {
-    public class Randomizer
+    public static class RandomizerExtensions
     {
         /// <summary>
         /// Gets {count} numbers that, when summed, equal {sum}
@@ -8,7 +8,7 @@
         /// <param name="sum">The desired sum</param>
         /// <param name="count">The number of random numbers to return</param>
         /// <returns></returns>
-        public List<int> GetRandomNumbersEqualToSum(int sum, int count)
+        public static List<int> ToRandomNumbers(this int sum, int count)
         {
 
             Random rand = new Random();
