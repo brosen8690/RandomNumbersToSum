@@ -34,7 +34,7 @@
             return numbers;
         }
 
-        private static int GetExponent(int remainder)
+        private static int GetBaseNumber(int remainder)
         {
             return int.Parse($@"1.{Math.Pow(10, remainder / 500).ToString().Substring(1)}1");
         }
