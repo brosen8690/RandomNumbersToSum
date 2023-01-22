@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomNumbersToSum", "Rando
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersToSum.Tests", "RandomNumbersToSum.Tests\RandomNumbersToSum.Tests.csproj", "{7D7251A5-B919-4E3E-AD6E-C21A4D7F398B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersToSumExecutable", "RandomNumbersToSumExecutable\RandomNumbersToSumExecutable.csproj", "{B1804A45-9F5B-4E57-B09E-476C9522618A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7D7251A5-B919-4E3E-AD6E-C21A4D7F398B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D7251A5-B919-4E3E-AD6E-C21A4D7F398B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D7251A5-B919-4E3E-AD6E-C21A4D7F398B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1804A45-9F5B-4E57-B09E-476C9522618A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1804A45-9F5B-4E57-B09E-476C9522618A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1804A45-9F5B-4E57-B09E-476C9522618A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1804A45-9F5B-4E57-B09E-476C9522618A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

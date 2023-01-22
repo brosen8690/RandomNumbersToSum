@@ -1,4 +1,6 @@
-﻿namespace RandomNumbersToSum
+﻿using System.Globalization;
+
+namespace RandomNumbersToSum
 {
     public static class RandomizerExtensions
     {
@@ -34,9 +36,13 @@
             return numbers;
         }
 
-        public static int GetBaseNumber(int remainder)
+        public static double GetBaseNumber(int remainder)
         {
-            return int.Parse($@"1.{Math.Pow(10, remainder / 500).ToString().Substring(1)}1");
+            Console.WriteLine($"Scientific notation: 1.1E-{(remainder / 500)}");
+            double parsedDouble = Double.Parse($".1E-{(remainder / 500)}", System.Globalization.NumberStyles.Float);
+            Console.WriteLine("Parsed double: " + (1 + parsedDouble));
+            //return Math.Pow(1.1, 1/((double)remainder / 500));
+            return double.Parse($@"1.{new string('0', (remainder / 500))}1", CultureInfo.InvariantCulture);
         }
 
         //private static int GetExponent(int remainder)
